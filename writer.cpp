@@ -3,13 +3,11 @@
 
 using namespace std;
 
-int main(){
-
+int main()
+{
   ofstream file;
   file.open("text.txt");
   file << "This is writefile program";
   file.close();
-
-  // cin.get();
-  // return 0;
+  return 0;
 }
